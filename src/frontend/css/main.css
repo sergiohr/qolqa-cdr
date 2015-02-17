@@ -96,19 +96,183 @@ textarea {
    ========================================================================== */
 
 
+/* ##### COMMONS #######*/
 
+.fa{
+    color: white;
+}
 
+body{
+    background-color: #434343;
+    padding: 2%;
+}
 
+div{
+    background-color: #2c2c2c;
+    padding: 4%;
 
+}
 
+a:link {text-decoration: none}
 
+a span{
+    position: relative;
+    left: 10%;
+    color: white;
+}
 
+nav{
+    background-color: #2c2c2c;
+}
 
+section{
+    background-color: #2c2c2c;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+}
 
+/*##### SEARCH #######*/
 
+header{
+    height: 60px;
+    background-color: #2c2c2c;
+    display: block;
+    margin-bottom: 2%;
+}
 
+/*##### SEARCH #######*/
 
+section.searchBox{
+    display: block;
+    background-image: url("../img/robot.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    min-height: 160px;
+}
 
+div.searchBar{
+    display: block;
+    padding: 0px;
+    margin-top: 30%;
+    background: transparent;
+}
+
+div.searchCode{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+div.searchCode form{
+    display: inline-block;
+    background: #434343;
+}
+
+.searchCode input[type="text"] {
+    display: inline-block;
+    outline: none;
+    padding: 10px 10px;
+    width: 73%;
+    border: 0;
+    -webkit-appearance: none;
+    background: #434343;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+}
+.searchCode input[type="submit"] {
+    border: 0;
+    padding: 5px 20px;
+    background: #ee6123;
+    color: #fff;
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.searchCode input[type="submit"]:hover{
+    color:#61b3de;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+
+a.searchQRBtn{
+    display: inline-block;
+    background: #434343;
+    padding: 19px 25px 3px 25px;
+    border: 0;
+    text-align: center;
+    vertical-align: center;
+}
+
+/*######## NAV ##########*/
+
+nav a.navOption{
+    border-top: #434343 2px solid;
+    border-bottom: #434343 2px solid;
+    display: block;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 30px;
+}
+
+nav a.navOption span i{
+    padding-right: 20px;
+}
+
+/*######## INFO COMPONENT ######*/
+
+.infoComponent img{
+    width: 100%;
+    border: #434343 2px solid;
+}
+
+.infoComponent table{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.infoComponent table td{
+    border: #434343 2px solid;
+    text-align: left;
+    color: white;
+    width: 20%;
+}
+
+.infoComponent table tr.inStock td{
+    background-color: #65a656;
+    text-align: center;
+}
+
+.infoComponent table tr.outStock td{
+    background-color: #cd3131;
+    text-align: center;
+}
+
+.infoComponent .searchSimilars input[type="submit"]{
+    box-shadow: none;
+    background-color: #434343;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
 
 
 /* ==========================================================================
